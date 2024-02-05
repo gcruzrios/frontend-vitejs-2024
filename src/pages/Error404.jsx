@@ -2,7 +2,8 @@ import React from "react";
 
 const Error404 = () => {
   return (
-    <>
+    <div className="align-items-center">
+
       <section id="wrapper" className="error-page">
         <div className="error-box">
           <div className="error-body text-center">
@@ -12,7 +13,7 @@ const Error404 = () => {
               YOU SEEM TO BE TRYING TO FIND HIS WAY HOME
             </p>
             <a
-              href="/"
+              href="/index"
               className="btn btn-info btn-rounded waves-effect waves-light mb-5 text-white"
             >
               Back to home
@@ -25,7 +26,7 @@ const Error404 = () => {
           </footer>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

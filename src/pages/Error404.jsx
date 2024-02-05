@@ -2,7 +2,7 @@ import React from "react";
 
 const Error404 = () => {
   return (
-    <div>
+    <>
       <section id="wrapper" className="error-page">
         <div className="error-box">
           <div className="error-body text-center">
@@ -25,7 +25,7 @@ const Error404 = () => {
           </footer>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

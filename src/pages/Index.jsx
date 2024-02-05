@@ -7,7 +7,7 @@ import DataTable from "../components/DataTableEmpresas";
 
 const Index = () => {
   return (
-    <div>
+    <>
       
       <div id="main-wrapper">
         <Header />
@@ -20,7 +20,7 @@ const Index = () => {
           <Footer />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

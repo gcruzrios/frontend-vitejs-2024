@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
+import "./Login.module.css";
 
 const Login = () => {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -36,40 +36,47 @@ const Login = () => {
           <div className="position-relative z-index-5 min-vh-100">
             <div className="row justify-content-center">
               <div className="col-xl-9 col-xxl-9">
-                
-                <div
-                  className=" d-xl-flex justify-content-center mb-100"
-                 
-                >
-                   <img
+
+
+              <img
                     src="assets/images/backgrounds/pexels-andrew-neel-2312369.jpg"
-                    alt="Backeground"
-                    className="img-fluid"
+                    alt="img"
+                    object-fit="fill"
                     width="100%"
-                    
-                  /> 
-                </div>
+                    height="100%"
+                  />
+                {/* <img
+                  src="assets/images/backgrounds/pexels-andrew-neel-2312369.jpg"
+                  alt="Backeground"
+                  className="img-fluid"
+                  width="100%"
+                  object-fit="fill"
+                  min-height="100%"
+                /> */}
+              {/* <div
+                class="d-none d-xl-flex align-items-center justify-content-center"
                 
+              >
+                <img
+                  src="../assets/images/backgrounds/login-security.svg"
+                  alt=""
+                  class="img-fluid"
+                  width="500"
+                />
+              </div> */}
+               
               </div>
               <div className="col-xl-3 col-xxl-3 col-md-8 mt-1 mt-lg-0 bg-lg-white">
                 <div className="authentication-login auth-card-login min-vh-100 min-height-auto bg-white row justify-content-center align-items-center p-4 mx-3 mx-lg-auto mt-5 mt-sm-0">
                   <div className="z-index-5">
-                  
-                
                     <h2 className="mb-1 fs-7 fw-bolder">Welcome to Adminpro</h2>
                     <p className="mb-4">Your Admin Dashboard</p>
                     <div className="row">
-                      <div className="col-6 mb-2 mb-sm-0">
-                        
-                      </div>
-                      <div className="col-6">
-                       
-                      </div>
+                      <div className="col-6 mb-2 mb-sm-0"></div>
+                      <div className="col-6"></div>
                     </div>
                     <div className="position-relative text-center my-4">
-                       <p className="mb-0 fs-4 px-3 d-inline-block bg-white text-dark z-index-5 position-relative">
-                        
-                      </p> 
+                      <p className="mb-0 fs-4 px-3 d-inline-block bg-white text-dark z-index-5 position-relative"></p>
                       <span className="border-top w-100 position-absolute top-50 start-50 translate-middle"></span>
                     </div>
                     <form>
@@ -123,23 +130,22 @@ const Login = () => {
                         </a>
                       </div>
 
-                      <button class="btn btn-primary w-100 py-8 mb-4 rounded-2"  onClick={handleLogin}>
-                            Login
-                          </button>
-                      
+                      <button
+                        class="btn btn-primary w-100 py-8 mb-4 rounded-2"
+                        onClick={handleLogin}
+                      >
+                        Login
+                      </button>
+
                       <div className="d-sm-flex align-items-center justify-content-center">
                         <p className="fs-4 mb-0 fw-medium">New to Adminpro?</p>
-                        <a
-                          className="text-primary fw-medium"
-                          href="/"
-                        >
+                        <a className="text-primary fw-medium" href="/">
                           Create an account
                         </a>
                       </div>
                     </form>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>

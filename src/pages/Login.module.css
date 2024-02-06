@@ -1,0 +1,21 @@
+.bg-img {
+    /* The image used */
+    background-image: url("assets/images/backgrounds/pexels-andrew-neel-2312369.jpg");
+  
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .background-login {
+    border: 2px solid black;
+    padding: 25px;
+    background: url("assets/images/backgrounds/pexels-andrew-neel-2312369.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  

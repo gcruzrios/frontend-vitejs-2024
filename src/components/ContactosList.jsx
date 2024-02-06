@@ -89,7 +89,7 @@ const ContactoList = () => {
                       <td>{contacto.telefono}</td>
                       <td>{contacto.empresa}</td>
                     <td><Link
-                          to={`/editempresa/${contacto._id}`}
+                          to={`/editcontacto/${contacto._id}`}
                           className="btn btn-info"
                         >
                           Editar

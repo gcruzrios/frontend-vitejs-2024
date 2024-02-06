@@ -51,7 +51,7 @@ const Sidebar = () => {
                   href="/sectores"
                   aria-expanded="false"
                 >
-                  <i className="mdi mdi-table"></i>
+                  <i className="mdi mdi-factory"></i>
                   <span className="hide-menu">Sectores</span>
                 </a>
               </li> 
@@ -62,7 +62,7 @@ const Sidebar = () => {
                   href="/contactos"
                   aria-expanded="false"
                 >
-                  <i className="mdi mdi-emoticon"></i>
+                  <i className="mdi mdi-account-multiple"></i>
                   <span className="hide-menu">Contactos</span>
                 </a>
               </li>
@@ -73,7 +73,7 @@ const Sidebar = () => {
                   href="/usuarios"
                   aria-expanded="false"
                 >
-                  <i className="mdi mdi-emoticon"></i>
+                  <i className="mdi mdi-account-multiple"></i>
                   <span className="hide-menu">Usuarios</span>
                 </a>
               </li>

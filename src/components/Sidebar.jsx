@@ -13,14 +13,14 @@ const Sidebar = () => {
                 {" "}
                 <a
                   className="waves-effect waves-dark"
-                  href="index.html"
+                  href="/index"
                   aria-expanded="false"
                 >
                   <i className="mdi mdi-gauge"></i>
                   <span className="hide-menu">Dashboard</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 {" "}
                 <a
                   className="waves-effect waves-dark"
@@ -30,8 +30,8 @@ const Sidebar = () => {
                   <i className="mdi mdi-account-check"></i>
                   <span className="hide-menu">Profile</span>
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 {" "}
                 <a
                   className="waves-effect waves-dark"
@@ -41,16 +41,38 @@ const Sidebar = () => {
                   <i className="mdi mdi-table"></i>
                   <span className="hide-menu">Table</span>
                 </a>
+              </li> */}
+              <li>
+                {" "}
+                <a
+                  className="waves-effect waves-dark"
+                  href="/empresas"
+                  aria-expanded="false"
+                >
+                  <i className="mdi mdi-table"></i>
+                  <span className="hide-menu">Empresas</span>
+                </a>
               </li>
               <li>
                 {" "}
                 <a
                   className="waves-effect waves-dark"
-                  href="icon-material.html"
+                  href="/contactos"
                   aria-expanded="false"
                 >
                   <i className="mdi mdi-emoticon"></i>
-                  <span className="hide-menu">Icons</span>
+                  <span className="hide-menu">Contactos</span>
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  className="waves-effect waves-dark"
+                  href="/usuarios"
+                  aria-expanded="false"
+                >
+                  <i className="mdi mdi-emoticon"></i>
+                  <span className="hide-menu">Usuarios</span>
                 </a>
               </li>
               <li>

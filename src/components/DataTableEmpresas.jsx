@@ -46,7 +46,7 @@ const DataTable = () => {
       {/* <!-- Begin Page Content --> */}
       <div className="container-fluid">
         {/* <!-- Page Heading --> */}
-        <h1 className="h3 mb-2 text-gray-800">Tables</h1>
+        <h1 className="h3 mb-2 text-gray-800">Empresas</h1>
        
 
         {/* <!-- DataTales Example --> */}
@@ -81,7 +81,7 @@ const DataTable = () => {
                 
                 <tbody>
                 {empresas.map((empresa) => (
-                  <tr>
+                  <tr key={empresa._id}>
                     <td>{empresa.nombre}</td>
                     <td>{empresa.telefono}</td>
                     <td>{empresa.email}</td>

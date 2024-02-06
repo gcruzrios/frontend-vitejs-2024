@@ -83,7 +83,7 @@ const ContactoList = () => {
                 
                 <tbody>
                 {contactos.map((contacto) => (
-                  <tr>
+                  <tr key={contacto._id}>
                     <td>{contacto.nombre}</td>
                       <td>{contacto.email}</td>
                       <td>{contacto.telefono}</td>

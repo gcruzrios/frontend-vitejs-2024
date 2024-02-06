@@ -20,28 +20,18 @@ const Sidebar = () => {
                   <span className="hide-menu">Dashboard</span>
                 </a>
               </li>
-              {/* <li>
+               <li>
                 {" "}
                 <a
                   className="waves-effect waves-dark"
-                  href="pages-profile.html"
+                  href="/profile"
                   aria-expanded="false"
                 >
                   <i className="mdi mdi-account-check"></i>
                   <span className="hide-menu">Profile</span>
                 </a>
-              </li> */}
-              {/* <li>
-                {" "}
-                <a
-                  className="waves-effect waves-dark"
-                  href="table-basic.html"
-                  aria-expanded="false"
-                >
-                  <i className="mdi mdi-table"></i>
-                  <span className="hide-menu">Table</span>
-                </a>
-              </li> */}
+              </li> 
+              {/**/}
               <li>
                 {" "}
                 <a
@@ -53,6 +43,18 @@ const Sidebar = () => {
                   <span className="hide-menu">Empresas</span>
                 </a>
               </li>
+
+              <li>
+                {" "}
+                <a
+                  className="waves-effect waves-dark"
+                  href="/sectores"
+                  aria-expanded="false"
+                >
+                  <i className="mdi mdi-table"></i>
+                  <span className="hide-menu">Sectores</span>
+                </a>
+              </li> 
               <li>
                 {" "}
                 <a

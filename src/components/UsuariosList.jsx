@@ -84,7 +84,7 @@ const UsuariosList = () => {
                 
                 <tbody>
                 {usuarios.map((usuario) => (
-                  <tr>
+                  <tr key={usuario._id}>
                     <td>{usuario.nombre}</td>
                       <td>{usuario.email}</td>
                       <td>{usuario.telefono}</td>

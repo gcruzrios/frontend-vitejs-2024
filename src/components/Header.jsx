@@ -1,6 +1,14 @@
 import React from "react";
 
 const Header = () => {
+  const Token = localStorage.getItem("Token");
+
+  const logout = () => {
+    localStorage.clear();
+    window.location.href = "/";
+  };
+
+
   return (
     <div>
       <header className="topbar">
@@ -13,7 +21,7 @@ const Header = () => {
               {/* <!-- Logo icon --> */}
               <b>
                 <img
-                  src="assets/images/logo-icon.png"
+                  src="/assets/images/logo-icon.png"
                   alt="homepage"
                   className="dark-logo"
                 />
@@ -22,7 +30,7 @@ const Header = () => {
                         <!-- Logo text --> */}
               <span>
                 <img
-                  src="assets/images/logo-text.png"
+                  src="/assets/images/logo-text.png"
                   alt="homepage"
                   className="dark-logo"
                 />
@@ -80,11 +88,15 @@ const Header = () => {
               <li className="nav-item">
                 <a className="nav-link waves-effect waves-dark" href="#">
                   <img
-                    src="../assets/images/users/1.jpg"
+                    src="/assets/images/users/1.jpg"
                     alt="user"
                     className="profile-pic"
                   />
                 </a>
+                
+                <button className="btn btn-secondary" onClick={() => logout()}> <i className="mdi mdi-logout"></i> Salir </button>
+                
+                
               </li>
             </ul>
           </div>

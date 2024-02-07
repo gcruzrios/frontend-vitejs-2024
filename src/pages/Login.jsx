@@ -69,7 +69,7 @@ const Login = () => {
               <div className="col-xl-3 col-xxl-3 col-md-8 mt-1 mt-lg-0 bg-lg-white">
                 <div className="authentication-login auth-card-login min-vh-100 min-height-auto bg-white row justify-content-center align-items-center p-4 mx-3 mx-lg-auto mt-5 mt-sm-0">
                   <div className="z-index-5">
-                    <h2 className="mb-1 fs-7 fw-bolder">Welcome to Adminpro</h2>
+                    <h2 className="mb-1 fs-7 fw-bold">Welcome to Adminpro</h2>
                     <p className="mb-4">Your Admin Dashboard</p>
                     <div className="row">
                       <div className="col-6 mb-2 mb-sm-0"></div>

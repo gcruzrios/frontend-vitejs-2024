@@ -18,6 +18,8 @@ import EditEmpresa from './pages/EditEmpresa';
 import EditUsuario from './pages/EditUsuario';
 import EditContacto from './pages/EditContacto';
 import EditSector from './pages/EditSector';
+import ListPaises from './pages/ListPaises';
+import Blank from './pages/Blank';
 
 function App() {
   
@@ -65,6 +67,12 @@ function App() {
             {" "}
           </Route>
           <Route path="/editsector/:id" element={<EditSector/>} exact>
+            {" "}
+          </Route>
+          <Route path="/paises" element={<ListPaises/>} exact>
+            {" "}
+          </Route>
+          <Route path="/blank" element={<Blank/>} exact>
             {" "}
           </Route>
           <Route path="/profile" element={<Profile/>} exact>

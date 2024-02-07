@@ -81,35 +81,25 @@ const Sidebar = () => {
                 {" "}
                 <a
                   className="waves-effect waves-dark"
-                  href="map-google.html"
+                  href="/paises"
                   aria-expanded="false"
                 >
                   <i className="mdi mdi-earth"></i>
-                  <span className="hide-menu">Map</span>
+                  <span className="hide-menu">Paises</span>
                 </a>
               </li>
               <li>
                 {" "}
                 <a
                   className="waves-effect waves-dark"
-                  href="pages-blank.html"
+                  href="/blank"
                   aria-expanded="false"
                 >
                   <i className="mdi mdi-book-open-variant"></i>
                   <span className="hide-menu">Blank</span>
                 </a>
               </li>
-              <li>
-                {" "}
-                <a
-                  className="waves-effect waves-dark"
-                  href="pages-error-404.html"
-                  aria-expanded="false"
-                >
-                  <i className="mdi mdi-help-circle"></i>
-                  <span className="hide-menu">404</span>
-                </a>
-              </li>
+              
             </ul>
             
           </nav>

@@ -1,22 +1,20 @@
 import React from 'react'
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
-
+import MainContent from "../components/MainContent";
 import Footer from "../components/Footer";
-import FormEditUsuario from "../components/FormEditUsuario";
 
-
-const EditUsuario = () => {
+const ListPaises = () => {
   return (
     <div>
-      <div id="main-wrapper">
+         <div id="main-wrapper">
         <Header />
 
         <Sidebar />
 
         <div className="page-wrapper">
-       
-          <FormEditUsuario />
+           <MainContent /> 
+           
           <Footer />
         </div>
       </div>
@@ -24,4 +22,4 @@ const EditUsuario = () => {
   )
 }
 
-export default EditUsuario
+export default ListPaises

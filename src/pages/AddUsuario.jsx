@@ -1,13 +1,25 @@
 import React from 'react'
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import MainContent from "../components/MainContent";
+
 import Footer from "../components/Footer";
-import DataTable from "../components/DataTableEmpresas";
+import FormAddUsuario from "../components/FormAddUsuario";
 
 const AddUsuario = () => {
   return (
-    <div>AddUsuario</div>
+    <div>
+      <div id="main-wrapper">
+        <Header />
+
+        <Sidebar />
+
+        <div className="page-wrapper">
+       
+          <FormAddUsuario />
+          <Footer />
+        </div>
+      </div>
+    </div>
   )
 }
 

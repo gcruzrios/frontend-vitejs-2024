@@ -54,21 +54,14 @@ const FormAddEmpresa = () => {
   return (
     <div>
       <div className="container-fluid">
-        {/* <!-- ============================================================== -->
-                <!-- Bread crumb and right sidebar toggle -->
-                <!-- ============================================================== --> */}
+        {/* <!-- Bread crumb and right sidebar toggle --> */}
         <div className="row page-titles">
           <div className="col-md-5 align-self-center">
             <h3 className="text-themecolor"> Formulario Agregar Empresa</h3>
           </div>
         </div>
-        {/* <!-- ============================================================== -->
-                <!-- End Bread crumb and right sidebar toggle -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Start Page Content -->
-                <!-- ============================================================== -->
-                <!-- Row --> */}
+
+              {/*  <!-- Row --> */}
         <div className="row">
           {/* <!-- Column --> */}
 
@@ -178,10 +171,8 @@ const FormAddEmpresa = () => {
           </div>
           {/* <!-- Column --> */}
         </div>
-        {/* <!-- Row -->
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== --> */}
+        {/* <!-- Row -->*/}
+               
       </div>
     </div>
   );

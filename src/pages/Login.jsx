@@ -29,6 +29,10 @@ const Login = () => {
       });
     }
   };
+
+  const mystyle = {
+    backgroundImage: "url(assets/images/backgrounds/pexels-andrew-neel-2312369.jpg)"
+  };
   return (
     <div>
       <div id="main-wrapper">
@@ -36,34 +40,16 @@ const Login = () => {
           <div className="position-relative z-index-5 min-vh-100">
             <div className="row justify-content-center">
               <div className="col-xl-9 col-xxl-9">
+                <div style={mystyle} ></div>
 
-
-              <img
+              {/* <img
                     src="assets/images/backgrounds/pexels-andrew-neel-2312369.jpg"
                     alt="img"
                     object-fit="fill"
                     width="100%"
                     height="100%"
                   />
-                {/* <img
-                  src="assets/images/backgrounds/pexels-andrew-neel-2312369.jpg"
-                  alt="Backeground"
-                  className="img-fluid"
-                  width="100%"
-                  object-fit="fill"
-                  min-height="100%"
-                /> */}
-              {/* <div
-                class="d-none d-xl-flex align-items-center justify-content-center"
-                
-              >
-                <img
-                  src="../assets/images/backgrounds/login-security.svg"
-                  alt=""
-                  class="img-fluid"
-                  width="500"
-                />
-              </div> */}
+                 */}
                
               </div>
               <div className="col-xl-3 col-xxl-3 col-md-8 mt-1 mt-lg-0 bg-lg-white">

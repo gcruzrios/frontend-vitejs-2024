@@ -31,7 +31,9 @@ const Login = () => {
   };
 
   const mystyle = {
-    backgroundImage: "url(assets/images/backgrounds/pexels-andrew-neel-2312369.jpg)"
+    backgroundImage: "url(/assets/images/backgrounds/pexels-andrew-neel-2312369.jpg)",
+    objectFit:"fill",
+    width:"75%"
   };
   return (
     <div>
@@ -39,17 +41,21 @@ const Login = () => {
         <div className="position-relative overflow-hidden radial-gradient min-vh-100 w-100">
           <div className="position-relative z-index-5 min-vh-100">
             <div className="row justify-content-center">
-              <div className="col-xl-9 col-xxl-9">
-                <div style={mystyle} ></div>
+              <div className="col-md-8 col-lg-9 col-xl-9 col-xxl-9">
+                <div className="bg-holder" style={mystyle}>
 
-              {/* <img
+                 {/* <img
                     src="assets/images/backgrounds/pexels-andrew-neel-2312369.jpg"
                     alt="img"
                     object-fit="fill"
                     width="100%"
                     height="100%"
-                  />
-                 */}
+                    overflow-y="hidden"
+                  /> */}
+                </div> 
+
+               
+                 
                
               </div>
               <div className="col-xl-3 col-xxl-3 col-md-8 mt-1 mt-lg-0 bg-lg-white">
@@ -94,30 +100,19 @@ const Login = () => {
                       </div>
                       <div className="d-sm-flex align-items-center justify-content-between mb-4">
                         <div className="form-check">
-                          <input
-                            className="form-check-input primary"
-                            type="checkbox"
-                            value=""
-                            id="flexCheckChecked"
-                            checked
-                          />
-                          <label
-                            className="form-check-label text-dark"
-                            for="flexCheckChecked"
-                          >
-                            Remeber this Device
-                          </label>
+                          
+                          
                         </div>
                         <a
                           className="text-primary fw-medium"
-                          href="../main/authentication-forgot-password.html"
+                          href="/forgotpassword"
                         >
                           Forgot Password ?
                         </a>
                       </div>
 
                       <button
-                        class="btn btn-primary w-100 py-8 mb-4 rounded-2"
+                        className="btn btn-primary w-100 py-8 mb-4 rounded-2"
                         onClick={handleLogin}
                       >
                         Login
@@ -125,7 +120,7 @@ const Login = () => {
 
                       <div className="d-sm-flex align-items-center justify-content-center">
                         <p className="fs-4 mb-0 fw-medium">New to Adminpro?</p>
-                        <a className="text-primary fw-medium" href="/">
+                        <a className="text-primary fw-medium" href="/register">
                           Create an account
                         </a>
                       </div>

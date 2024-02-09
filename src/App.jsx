@@ -20,6 +20,8 @@ import EditContacto from './pages/EditContacto';
 import EditSector from './pages/EditSector';
 import ListPaises from './pages/ListPaises';
 import Blank from './pages/Blank';
+import AddPais from './pages/AddPais';
+import EditPais from './pages/EditPais';
 
 function App() {
   
@@ -70,6 +72,13 @@ function App() {
             {" "}
           </Route>
           <Route path="/paises" element={<ListPaises/>} exact>
+            {" "}
+          </Route>
+
+          <Route path="/addpais" element={<AddPais/>} exact>
+            {" "}
+          </Route>
+          <Route path="/editpais/:id" element={<EditPais/>} exact>
             {" "}
           </Route>
           <Route path="/blank" element={<Blank/>} exact>

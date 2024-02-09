@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import MainContent from "../components/MainContent";
 import Footer from "../components/Footer";
+import PaisesList from '../components/PaisesList';
 
 const ListPaises = () => {
   return (
@@ -13,7 +14,7 @@ const ListPaises = () => {
         <Sidebar />
 
         <div className="page-wrapper">
-           <MainContent /> 
+         <PaisesList/>  
            
           <Footer />
         </div>

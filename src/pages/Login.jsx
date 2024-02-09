@@ -112,14 +112,14 @@ const Login = () => {
                       </div>
 
                       <button
-                        className="btn btn-primary w-100 py-8 mb-4 rounded-2"
+                        className="btn btn-primary w-100 py-3 mb-4 rounded-2"
                         onClick={handleLogin}
                       >
                         Login
                       </button>
 
                       <div className="d-sm-flex align-items-center justify-content-center">
-                        <p className="fs-4 mb-0 fw-medium">New to Adminpro?</p>
+                        <p className="fs-7 mb-0 fw-medium">New to Adminpro?</p>
                         <a className="text-primary fw-medium" href="/register">
                           Create an account
                         </a>
